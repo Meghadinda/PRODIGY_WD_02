@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stopwatch</title>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div class="stopwatch">00:00:00</div>
+
+    <div class="buttons">
+      <button id="start"><i class="fas fa-play"></i> Start</button>
+      <button id="pause"><i class="fas fa-pause"></i> Pause</button>
+      <button id="reset"><i class="fas fa-rotate-left"></i> Reset</button>
+      <button id="lap"><i class="fas fa-flag-checkered"></i> Lap</button>
+    </div>
+
+    <ul id="laps"></ul>
+  </div>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
